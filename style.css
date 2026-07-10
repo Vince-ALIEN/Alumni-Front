@@ -1,0 +1,44 @@
+@import "tailwindcss";
+@import "tailwindcss-animated";
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("../src/fonts/open-sans-latin-400-normal.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "ITC Avant Garde Gothic LT";
+    src: url("../src/fonts/ITC Avant Garde Gothic LT Bold.woff2") format("woff2");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Saint-Dominique Condensed";
+    src: url("../src/fonts/Sup-Saint-DominiqueCondensed-Regular.woff2") format("woff2");
+    font-display: swap;
+}
+
+@theme {
+    --color-background: #f2f2f2;
+	--color-foreground: #4D4D4D;
+	--color-secondary: #B5018A;
+	--color-tertiary: #00B57B;
+	--color-blue: #00737c;
+	--color-parme: #A593B5;
+	--color-violet: #716081;
+	--color-white: #ffffff;
+    --color-greenstdo: #417163;
+
+    --font-sans: "Open Sans", ui-sans-serif, system-ui, sans-serif;
+    --font-heading: "ITC Avant Garde Gothic LT", ui-sans-serif, sans-serif;
+    --font-ssd: "Saint-Dominique Condensed", ui-sans-serif, sans-serif;
+}
+
+html {
+  @apply scroll-smooth;
+}
