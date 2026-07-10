@@ -21,3 +21,7 @@ Then serve the project root with any static file server (the page references
 ```bash
 npx serve .
 ```
+
+## License
+
+All rights reserved. See [LICENSE](./LICENSE).
